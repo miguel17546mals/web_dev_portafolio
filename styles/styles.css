@@ -4,16 +4,16 @@ body{
 }
 .one{
     background-color: #0c566b;
-    height: 100vh;
-    width: 100vw;
-    padding: 0.5rem;
 }
 .two{
     background-color: #6b1632;
+}
+.full{
     height: 100vh;
     width: 100vw;
     padding: 0.5rem;
 }
 h1 {
     color:white;
+    margin: 0;
 }
