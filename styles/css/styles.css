@@ -5,6 +5,7 @@ body {
 
 .one {
   background-color: #0c566b;
+  display: flex;
 }
 
 .two {
@@ -14,12 +15,31 @@ body {
 .full {
   height: 100vh;
   width: 100vw;
-  padding: 0.5rem;
 }
 
-h1 {
+.one-section, .two-section {
+  padding: 0 0 0 65px;
+}
+
+h1, h2 {
   color: #fff;
   margin: 0;
+}
+
+#menu-nav {
+  width: 60px;
+  height: 100vh;
+  position: fixed;
+  background-color: #181818;
+}
+#menu-nav li {
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
