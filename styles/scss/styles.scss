@@ -30,8 +30,38 @@ h1, h2 {
     height: 100vh;
     position: fixed;
     background-color: #181818;
-    li{
+    display: flex;
+    align-items: center;
+    .menu-icon{
+        width: 60px;
+        height: 60px;
         color: $white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: color .3s ease-out ;
+        &:hover{
+            cursor: pointer;
+            color: $light-yellow;
+            &::after{
+                content: "Inicio";
+            }
+            span{
+                display: none;   
+            }
+        }
+    }
+    .icon-home:hover::after{
+        content: "Inicio";
+    }
+    .icon-projects:hover::after{
+        content: "Proyectos";
+    }
+    .icon-about:hover::after{
+        content: "Acerca de";
+    }
+    .icon-contact:hover::after{
+        content: "Contacto";
     }
 }
 ul{
