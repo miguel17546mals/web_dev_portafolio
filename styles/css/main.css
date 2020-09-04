@@ -1,0 +1,92 @@
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menu-nav {
+  width: 60px;
+  height: 100vh;
+  position: fixed;
+  background-color: #181818;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+#menu-nav .logo {
+  width: 60px;
+}
+#menu-nav .menu-icon {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: color 0.3s ease-out;
+}
+#menu-nav .menu-icon:hover {
+  cursor: pointer;
+  color: #b8aa0b;
+}
+#menu-nav .icon-home:hover::after {
+  content: "Inicio";
+}
+#menu-nav .icon-projects:hover::after {
+  content: "Proyectos";
+}
+#menu-nav .icon-about:hover::after {
+  content: "Acerca de";
+}
+#menu-nav .icon-contact:hover::after {
+  content: "Contacto";
+}
+#menu-nav .icon-twitter {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+#menu-nav .icon-twitter:hover {
+  cursor: pointer;
+}
+#menu-nav .icon-twitter .twitter {
+  width: 22px;
+}
+#menu-nav .icon-facebook:hover {
+  color: #b8aa0b;
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.one {
+  background-color: #0c566b;
+  display: flex;
+}
+
+.two {
+  background-color: #6b1632;
+}
+
+.full {
+  height: 100vh;
+  width: 100vw;
+}
+
+.one-section, .two-section {
+  padding: 0 0 0 65px;
+}
+
+h1, h2 {
+  color: #fff;
+  margin: 0;
+}
+
+/*# sourceMappingURL=main.css.map */
